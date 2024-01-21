@@ -34,7 +34,7 @@ function fetchGitHubData(username, page, perPage) {
                             <img src="${data.avatar_url}" alt="Profile Picture" width="100">
                         </div>
                         <div class="profile-data">
-                            <h1>Name: ${data.name}</h1>
+                            <h2 id="h2-text">Name: ${data.name}</h2>
                             <p>Bio: ${data.bio}</p>
                             <p>📍: ${data.location}</p>
                             <p>Twitter: <a href="https://twitter.com/${data.twitter_username}" target="_blank">https://twitter.com/${data.twitter_username}</a></p>
@@ -66,7 +66,7 @@ function fetchGitHubData(username, page, perPage) {
                                     <p>${repo.description}</p>
                                     <p>🌟: ${repo.stargazers_count}</p>
                                     <p>⑂: ${repo.forks_count}</p>
-                                    <span> ${topicsHTML}</span>
+                                    <span class="topics"> Topics: ${topicsHTML}</span>
                                     
                                     
                                 </div>`;
