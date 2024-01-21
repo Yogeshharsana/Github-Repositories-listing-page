@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fyle Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+
+    <nav>
+        <div class="main-nav container flex">
+            <a href="#" onclick="reload()" class="company-logo">
+                <img src="./assets/logo.png" alt="company logo">
+            </a>
+            
+            <div class="search-bar flex">
+                <input id="search-text" type="text" class="news-input" placeholder="e.g. github username">
+                <button id="search-button" onclick="searchGitHub()" class="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div id="profile-container">
+
+    </div>
+
+    <div id="loader" class="loader"></div>
+    <div class="no-selector container">
+        <select id="repos-per-page" onchange="changeReposPerPage()">
+            <option value="10">10 per page</option>
+            <option value="20">20 per page</option>
+            <option value="50">50 per page</option>
+            <option value="100">100 per page</option>
+        </select>
+    </div>
+
+    <div id="repos-container" class="repos-grid container "></div>
+
+    <div id="pagination" class="pagination container">
+        <button onclick="changePage(-1)">Previous</button>
+        <span id="page-number">1</span>
+        <button onclick="changePage(1)">Next</button>
+        
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html> 
