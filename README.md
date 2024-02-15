@@ -32,7 +32,7 @@ Potential areas for future enhancements include:
 * Sorting and Filtering: Allow users to sort and filter repositories based on different criteria.
 * User Authentication: Explore options for user authentication to access private repositories.
 ## Conclusion
-The GitHub User Data and Repository Viewer successfully meet the requirements of the Fyle assignment. It provides a user-friendly interface for exploring GitHub user data and repositories. The project can be further extended and improved based on future requirements and feedback.
+ It provides a user-friendly interface for exploring GitHub user data and repositories. The project can be further extended and improved based on future requirements and feedback.
 
 Feel free to explore and provide feedback for continuous improvement! 
 
