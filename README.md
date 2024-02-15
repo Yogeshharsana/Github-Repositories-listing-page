@@ -1,8 +1,8 @@
 
-# GitHub User Data and Repository Viewer - Fyle  internship challenge  Assignment.
+# GitHub User Data and Repository Viewer 
 
 ## Overview
-This web application was developed as part of the Fyle internship challenge assignment. The goal of the project is to create a dynamic website that utilizes the GitHub API to fetch and display user data and repository information based on the entered GitHub username.
+ The goal of the project is to create a dynamic website that utilizes the GitHub API to fetch and display user data and repository information based on the entered GitHub username.
 
 ## Solutions and Implementation
 ### HTML Structure
